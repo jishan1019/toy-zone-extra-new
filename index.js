@@ -17,10 +17,10 @@ app.use(express.json())
 
 // Mongodb Code Here---------------------------
 
-// const uri = `mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@ac-re8a3ak-shard-00-00.q1ppz51.mongodb.net:27017,ac-re8a3ak-shard-00-01.q1ppz51.mongodb.net:27017,ac-re8a3ak-shard-00-02.q1ppz51.mongodb.net:27017/?ssl=true&replicaSet=atlas-p2ax84-shard-0&authSource=admin&retryWrites=true&w=majority`
+const uri = `mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@ac-re8a3ak-shard-00-00.q1ppz51.mongodb.net:27017,ac-re8a3ak-shard-00-01.q1ppz51.mongodb.net:27017,ac-re8a3ak-shard-00-02.q1ppz51.mongodb.net:27017/?ssl=true&replicaSet=atlas-p2ax84-shard-0&authSource=admin&retryWrites=true&w=majority`
 
 
-const uri = "mongodb+srv://toy_zone_bd:EeCGMk4oPVdgAQAi@cluster0.q1ppz51.mongodb.net/?retryWrites=true&w=majority";
+// const uri = "mongodb+srv://toy_zone_bd:EeCGMk4oPVdgAQAi@cluster0.q1ppz51.mongodb.net/?retryWrites=true&w=majority";
 
 
 
